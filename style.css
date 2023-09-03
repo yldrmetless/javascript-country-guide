@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Montserrat',sans-serif;
+}
+body{
+    height: 100vh;
+    background-color: #1b263b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: #ccdadd;
+    width: 60vw;
+    padding: 3rem 2.4rem;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    box-shadow: 0 20px 25px rgba(0,0,0,0.2);
+}
+
+
+.search-container{
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    gap: 1.25rem;
+}
+
+.search-container input{
+    background-color: transparent;
+    font-size: 1.2rem;
+    padding: 0 0.65rem;
+    border: none;
+    border-bottom: 3px solid #1b263b;
+    outline: none;
+    color: #333;
+}
+
+.search-container input::placeholder{
+    color: #333;
+}
+.search-container button{
+    font-size: 1.2rem;
+    background-color: #1b263b;
+    border: none;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+    color: #efefef;
+    padding: 0.6rem 0;
+    cursor: pointer;
+    transition:all  0.2s ease;
+    -webkit-transition:all  0.2s ease;
+    -moz-transition:all  0.2s ease;
+    -ms-transition:all  0.2s ease;
+    -o-transition:all  0.2s ease;
+}
+
+.search-container button:hover{
+    background-color: #1b263b;
+}
+
+/* ---------- */
+
+
+.container .data-container{
+    margin-bottom: 1rem;
+}
+
+.container .flag-img{
+    display: block;
+    width: 40%;
+    min-width: 7.5em;
+    margin: 1.8rem auto 1.2rem auto;
+    box-shadow: 8px 10px 15px rgba(0,0,0,0.1);
+}
+
+
+.container h2{
+    font-weight: 600;
+    color: #333;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 1.8rem;
+    font-size: 2rem;
+}
+
+.data-container h4{
+    margin-bottom: 1rem;
+    letter-spacing: 0.3px;
+    color: #1b263b;
+    font-size: 2rem;
+    display: inline;
+    font-weight: 700;
+}
+
+.container span{
+    font-weight: 400;
+    color: #333;
+    font-size: 1.7rem;
+    margin-left: 1rem;
+}
+
+.container h3{
+    text-align: center;
+    font-weight: 500;
+    color: #ff465a;
+    font-size: 1.4rem;
+    margin-top: 1rem;
+}
